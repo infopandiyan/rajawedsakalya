@@ -211,7 +211,7 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var data = $("#contact").serialize();
         $.ajax({
-            type: "GET",
+            type: "POST",
             url: "http://www.rajawedsakalya.com/ajax/sendemail.php",
             data: data,
             success: function(q) {
@@ -229,7 +229,7 @@ $(document).ready(function() {
 function getdata() {
     var data = $("#contact").serialize();
     $.ajax({
-        type: "GET",
+        type: "POST",
         url: "http://www.rajawedsakalya.com/ajax/getdata.php",
         data: data,
         success: function(vals) {
