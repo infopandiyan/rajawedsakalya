@@ -1,6 +1,734 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<<<<<<< HEAD
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RajaWedsAkalya.com</title>
+    <!-- Bootstrap 3.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome 4.2.0 -->
+    <link href="css/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- ilove Font 1.0 -->
+    <link href="css/ilove/font-ilove.css" rel="stylesheet">   
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Magnific popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prettify.css">
+    <link rel="stylesheet" href="css/jquery.scrollbar.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body  class="wrapper" id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+    </div>
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide carousel-fade">   
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+               <!--  <li data-target="#myCarousel" data-slide-to="0" class="active"></li> -->
+               <!--  <li data-target="#myCarousel" data-slide-to="1"></li> -->
+                <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+            </ol>
+            <div id="progressbar"></div>
+            <!-- Wrapper for slides -->           
+            <div class="carousel-inner">
+                <div class="messages">
+                        <h1 class="slideInDown wow animated" data-wow-delay="0.5s">Pandiyaraja <span class="heart pulsing fa fa-heart"></span> Saranyadevi</h1>
+                        <div id="time"></div>
+                        <h4 class="fadeIn wow animated" data-wow-delay="1.2s">In love and counting</h4>
+                        <div class="btn-special slideInUp wow animated page-scroll" data-wow-delay="0.7s">
+                            <a href="#about"><span>Discover More</span></a>
+                        </div>          
+                </div>
+                <div class="item active">
+                    <div class="carousel-img" style="background-image:url(images/carousel-3.jpg)"></div>                            
+                </div> 
+                <!-- <div class="item">
+                    <div class="carousel-img" style="background-image:url(images/carousel-2.jpg)"></div>                            
+                </div> -->
+               <!--  <div class="item">
+                    <div class="carousel-img" style="background-image:url(images/carousel-1.jpg)"></div>                            
+                </div>  -->                                             
+            </div>
+            <div class="overlay2"></div>                
+            <div id="geo" class="geo">
+               <div id="output" class="geo">
+               </div>
+            </div>             
+    </div>
+    <div id="about"></div>    
+    <!--Navbar-->
+    <div class="topbar-nav">        
+        <nav class="navbar navbar-default navbar-custom" role="navigation">
+            <div class="container">        
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button> 
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="images/logo.png" alt="logo">
+                    </a>                              
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from Adam & Eve link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>                                               
+                        <li class="page-scroll">
+                            <a href="#about">Raja & Akalya</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#family">Our Family</a>
+                        </li>                        
+                        <li class="page-scroll dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#moments">Big Moments</a>
+                           <!--  <ul class="dropdown-menu wow swing" role="menu">
+                                <li><a href="wedding.html">Wedding Event</a></li>
+                                <li><a href="#">Engagement</a></li>
+                                <li><a href="#">Reception</a></li>
+                            </ul>           -->                   
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#the-day">The Day</a>                           
+                        </li>  
+                        <li class="page-scroll">
+                            <a href="#contactus">Your Message</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </div>   
+    <!--Adam & EVE Section-->
+    <section id="aboutthem" class="white">
+        <div class="container">
+        <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Welcome Everyone</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                            Welcome to Raja & Akalya website where we proudly tell and recored our love story with all its ups and downs with all great moments and happy events.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info">
+                                        <p> <h3>I'm Raja</h3></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>   
+                    </div>
+                    <div class="and">&amp;</div> 
+                    <div class="col-md-6">
+                        <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <p> <h3>I'm Akalya</h3></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>   
+                    </div>              
+                </div>
+            </div>
+        </div>        
+        <div class="separator"></div>       
+    </section>
+    <!--Family Section-->
+    <section id="family" class="white">
+        <div class="container">    
+            <div class="row">     
+                <!--Our Family-->           
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Family Members</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s" style="font-family: 'Great Vibes', cursive; font-size: 30px">You don't choose your family. They are God's gift to you, as you are to them.</p>
+                    </div>  
+                    <div class="col-md-4 man-family">
+                        <h3>RAJA Family</h3>
+                        <p></p>
+                        <div id="owl-man-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-1.jpg" alt="team" />
+                                    <h4>Paulpandian</h4>
+                                    <h5>Father</h5>
+                                </div>                           
+                            </div> 
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-2.jpg" alt="team" />
+                                    <h4>Vasantha</h4>
+                                    <h5>mother</h5>
+                                </div>                           
+                            </div> 
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-3.jpg" alt="team" />
+                                    <h4>Duraipandian</h4>
+                                    <h5>Brother</h5>
+                                </div>                            
+                            </div> 
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-4.jpg" alt="team" />                        
+                                    <h4>Muthupandiammal</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>                                                                                                                       
+                        </div>            
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="images/couple-standing.jpg" alt="couple" />
+                    </div> 
+                    <div class="col-md-4 woman-family">
+                        <h3>AKALYA Family</h3>
+                        <p></p>
+                        <div id="owl-woman-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-5.jpg" alt="team" />
+                                    <h4>Annadurai</h4>
+                                    <h5>Father</h5>
+                                </div>                            
+                            </div> 
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-6.jpg" alt="team" />                        
+                                    <h4>Annamani</h4>
+                                    <h5>Mother</h5>
+                                </div>                            
+                            </div>  
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-7.jpg" alt="team" />
+                                    <h4>Saratha Devi</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div> 
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-8.jpg" alt="team" />                        
+                                    <h4>Saguthala Devi</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>   
+                             <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-9.jpg" alt="team" />                        
+                                    <h4>Sathya Devi</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>   
+                             <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-10.jpg" alt="team" />                        
+                                    <h4>Akilan</h4>
+                                    <h5>Brother</h5>
+                                </div>                            
+                            </div>                                                                                                                    
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Big Moments-->
+    <section id="moments">
+        <div class="container-fluid white">         
+            <!--Moments to remember-->
+            <div class="container">           
+                <div class="row">            
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Moments to Remember</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.7s">Our Engagement held at Ammandivillai, Nagercoil on  01 June 2017. Enagagement happy moments gallary </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bigmoments">
+                <div id="owl-moments" class="owl-carousel">
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g1.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g1.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g5.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g5.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g2.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g2.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g6.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g6.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g3.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g3.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>   
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g7.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g7.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g4.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g4.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g8.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g8.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g9.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g9.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g13.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g13.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g10.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g10.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g14.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g14.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g11.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g11.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>   
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g15.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g15.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g12.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g12.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g16.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g16.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>                        
+                </div>
+             </div>
+            <!--Special Events-->
+            <div class="separator"></div>
+        </div>
+    </section>
+   <section id="the-day">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">The Day</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        My love for you is a journey, starting at forever and ending at never.
+                        </p>                                             
+                    </div>
+                    <div class="col-md-6">
+                          <!--  <div class="day-details wow fadeInUp" data-wow-delay="0.7s">
+                            <h4>Find Routes</h4>
+                            <p>Golden Mahal 20/15, Vellamodi, Ammandivilai, Kanyakumari Dist.</p>
+                           <!-n-  <h4><strong>04 Feb 2018</strong></h4> - ->
+                        </div> -->
+                         <div class="day-details wow fadeInUp" data-wow-delay="0.7s" style="text-align: center;">
+                            <h3>Marriage Date & Location</h3>
+                            <p style="font-size: 20px;">Our wedding function will be on Sunday 04 Feb 2018 at Golden Mahal 20/15, Vellamodi, Ammandivilai, Kanyakumari Dist.</p>
+                            <h4 style="font-size: 30px;"><strong>04-Feb-2018</strong></h4>
+                        </div>
+                         <div class="day-details wow fadeInUp" data-wow-delay="0.7s" style="text-align: center;">
+                            <h3>Reception Date & Location</h3>
+                            <p style="font-size: 20px;"> Our reception function will be on Wednesday 07 Feb 2018 at PRT Mahal Nadimuthu Nagar, Pattukkottai, Tamil Nadu 614601.</p>
+                            <h4 style="font-size: 30px;"><strong>07-Feb-2018</strong></h4>
+                        </div>
+                </div>
+                    <div class="col-md-6">
+                   
+                         <div class="col-md-12 place-details">
+                        <h4 style="color:#ef6a8a; margin-top: 0px; margin-bottom: 0px; text-align: center;">NEAR BEAUTIFUL PLACES</h4>
+                        <p></p>
+                        <div id="owl-places" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="place-img">                        
+                                    <img class="img-responsive" src="images/place-1.jpg" alt="team" />
+                                    <h4>Mathur Thottipalam Bridge</h4>
+                                    <h5> Nagercoil, Kanyakumari District.</h5>
+                                </div>                           
+                            </div> 
+                            <div class="owl-item">
+                                <div class="place-img">                        
+                                    <img class="img-responsive" src="images/place-2.jpg" alt="team" />
+                                    <h4>Ayya Vaikundar Temple</h4>
+                                    <h5>Swamithoppu, Kanyakumari District.</h5>
+                                </div>                           
+                            </div> 
+                            <div class="owl-item">
+                                <div class="place-img">                        
+                                    <img class="img-responsive" src="images/place-3.jpg" alt="team" />
+                                    <h4>Thiruvalluvar Statue</h4>
+                                    <h5>Kanyakumari</h5>
+                                </div>                            
+                            </div> 
+                            <div class="owl-item">
+                                <div class="place-img">
+                                    <img class="img-responsive" src="images/place-4.jpg" alt="team" />                        
+                                    <h4>Thanumalaya Temple</h4>
+                                    <h5>Suchindram, Kanyakumari District.</h5>
+                                </div>                            
+                            </div>     
+                              <div class="owl-item">
+                                <div class="place-img">
+                                    <img class="img-responsive" src="images/place-5.jpg" alt="team" />                        
+                                    <h4>Padmanabhapuram Palace</h4>
+                                    <h5>Padmanabhapuram, Kanyakumari District</h5>
+                                </div>                            
+                            </div>     
+                              <div class="owl-item">
+                                <div class="place-img">
+                                    <img class="img-responsive" src="images/place-6.jpg" alt="team" />                        
+                                    <h4>Wandering Monk Exhibition</h4>
+                                    <h5>Kanyakumari.</h5>
+                                </div>                            
+                            </div>                                                                                                                       
+                        </div>            
+                    </div>
+                    </div> 
+                </div>
+            </div>
+        </div>   
+   <div class="col-md-12" style="padding: 0px 0px 80px 0px !important;">
+                    <!-- <div id="map" class="wow fadeInUp" data-wow-delay="0.7s"></div> -->
+                    <div id="map" class="col-md-9" style="margin: 0px; padding: 0px !important;"></div>
+        <div class="map-legend  col-md-3" style="padding: 0px !important;">
+            <div class="location location-1">
+                <div class="location--inner">
+                  <!--   <img src="images/markers/svg/Coffee_3.svg" alt="Coffee Shop icon"> -->
+                    <h3>Golden Mahal</h3>
+                    <p>20/15, Vellamodi</p>
+                    <h4>Ammandivilai</h4>
+                    <p>Kanyakumari</p>
+                    <p>9am - 2pm</p>
+                </div>
+            </div>
+            <div class="location location-2">
+                <div class="location--inner">
+                  <!--   <img src="images/markers/svg/Arrow_1.svg" alt="PEPSized Office icon" width="48" height="48"> -->
+                    <h3>PRT Mahal</h3>
+                    <p>Nadimuthu Nagar</p>
+                    <h4>Pattukkottai</h4>
+                    <p>Thanjavur Dist.</p>
+                    <p>11am - 3pm</p>
+                </div>
+            </div>
+        </div>
+                </div>             
+        <div class="separator"></div>
+    </section>
+    <div style="clear: both;"></div>
+    <!--Blog Section-->
+    <!--Contact Section-->
+    <section id="contactus" class="white contact">
+        <!--Contact Form-->
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Your Message</h2>
+                    <p></p>
+                </div>
+                <div class="col-md-6 autoscroll" style="margin-bottom: 30px; border-bottom: 5px solid #ccc;" >
+                    <div id="MessageData" class="bestfriends" style="width: 100%;"></div>
+                </div>
+            <div class="col-md-6">
+                <div id="ContactFormDiv"></div>
+                <form class="form-horizontal" method="post" action="#" name="ContactForm" id="contact">
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name*">
+                    </div>
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea name="comments" class="form-control" rows="10" placeholder="Your Message*"></textarea>
+                    </div>
+                    <div class="col-md-12 btn-normal">
+                        <a href="" id="submit"><span>Submit</span></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>        
+    <!--Footer Section-->
+    <section class="footer">    
+        <!--Footer One-->
+        <!-- <div class="container-fluid color pattern">
+            <div class="container">
+                <div class="row">           
+                    <div class="col-md-12 footer1">
+                        <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <p class="text-center"><span class="fa fa-twitter fa-5x"></span></p>
+                            <div class="footer-tweet">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>         -->
+        <!--Footer Two-->
+        <div class="container-fluid dark footer2">
+            <div class="container">
+                <div class="row">           
+                <div class="col-md-12">
+                    <!--<img src="images/logo-grey.png" alt="logo"> -->                  
+                    <p>© RajawedsAkalya - All Rights Reserved. Made With Love For You Only</p>
+                    <div class="social-icons">
+                        <ul>
+                            <li class="twitter">
+                            <a href="https://twitter.com/pandiyan88" target="_blank">Twitter</a>
+                            </li>
+                            <li class="facebook">
+                            <a href="https://www.facebook.com/pandiyaraja88" target="_blank">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>            
+ <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+       height: 450px;
+        margin: 0px 15px 0px;
+      }
+  
+    </style>
+    <!-- Al JS Plugins -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw4zoMhjBovBpFofL610c27FI92dOuEs8"></script> -->    
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/annyang.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/smoothscrolling.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/custom.js"></script>    
+    <script src="js/fss.js"></script>      
+    <script src="js/geo.js"></script>      
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slide-fade-content.js"></script>
+    <script src="js/twitter/jquery.tweet.js"></script>
+    <script src="js/prefixfree.js"></script>
+    <script src="js/countup.js"></script>
+    <script src="js/modernizr.hover.js"></script>
+      <script src="js/modernizr.js"></script>
+
+     <!--  <script type="text/javascript" src="js/prettify.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollbar.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($){
+                window.prettyPrint && prettyPrint();
+                $('.wrapper').scrollbar();
+            });
+        </script> -->
+    <script type="text/javascript">
+        var map,
+                desktopScreen = Modernizr.mq( "only screen and (min-width:1024px)" ),
+                zoom = desktopScreen ? 6 : 7,
+                scrollable = draggable = !Modernizr.hiddenscroll || desktopScreen,
+                isIE11 = !!(navigator.userAgent.match(/Trident/) && navigator.userAgent.match(/rv[ :]11/));
+            function initMap() {
+                var myLatLng = {lat: 9.4533, lng: 77.8024};
+                map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: zoom,
+                    center: myLatLng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: scrollable,
+                    draggable: draggable,
+                    styles: [{"stylers": [{ "saturation": -100 }]}],
+                });
+                var locations = [
+                    {
+                        title: 'Reception Place',
+                        position: {lat: 10.424802, lng: 79.298412},
+                        icon: {
+                            url: isIE11 ? "images/markers/png/Home_4.png" : "images/markers/svg/Home_4.svg",
+                            scaledSize: new google.maps.Size(64, 64)
+                        }
+                    },
+                    {
+                        title: 'Marriage Place',
+                        position: {lat: 8.1420765, lng: 77.3267273},
+                        icon: {
+                            url: isIE11 ? "images/markers/png/Home_5.png" : "images/markers/svg/Home_5.svg",
+                            scaledSize: new google.maps.Size(96, 96)
+                        }
+                    }                   
+                ];
+                locations.forEach( function( element, index ){  
+                    var marker = new google.maps.Marker({
+                        position: element.position,
+                        map: map,
+                        title: element.title,
+                        icon: element.icon,
+                    });
+                }); 
+            }
+    </script>
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl96nfVATqYSXIh98M5mQWonXHAH2steQ&callback=initMap">
+    </script>
+
+
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<script type="text/javascript">
+            if(window.location.href.match(/gromo.github.io/i)){
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-54894986-2', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
+
+
+  </body>
+</html>
+=======
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>rajawedsakalya.com / Coming Soon Page</title>
 
@@ -63,3 +791,4 @@ $(function () {
 
 </body>
 </html>
+>>>>>>> 0f14b9dcf8d1dbf3d0502c89066574d7adcde064
