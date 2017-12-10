@@ -212,7 +212,7 @@ $(document).ready(function() {
         var data = $("#contact").serialize();
         $.ajax({
             type: "POST",
-            url: "ajax/sendemail.php",
+            url: "http://www.rajawedsakalya.com/ajax/sendemail.php",
             data: data,
             success: function(q) {
                 $("#ContactFormDiv").html(q);
@@ -230,7 +230,7 @@ function getdata() {
     var data = $("#contact").serialize();
     $.ajax({
         type: "POST",
-        url: "ajax/getdata.php",
+        url: "http://www.rajawedsakalya.com/ajax/getdata.php",
         data: data,
         success: function(vals) {
             var finaldata = [];
@@ -296,45 +296,6 @@ $(window).scroll(function() {
     }
 });
 
-/*------------------------------ Background Video ----------------------*/
-
-//document.getElementById("bgvideo").width=document.body.offsetWidth;
 
 
-/*------------------------------ Google Map ----------------------*/
 
-/*google.maps.event.addDomListener(window, 'load', init);
-function init() {   
-    var mainPosition = new google.maps.LatLng(8.1420765, 77.3267273);
-    var mapOptions = {
-        zoom: 10,
-        scrollwheel: false,
-        disableDefaultUI: true,
-        center: mainPosition, // Melbourne
-        styles: [{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off","hue": "#ffffff"}]},{"featureType":"transit","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"stylers":[{"hue":"#00aaff"},{"saturation":-100},{"gamma":2.15},{"lightness":12}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"lightness":24}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":57}]}]
-    };
-    var mapElement = document.getElementById('map');
-    var map = new google.maps.Map(mapElement, mapOptions);
-        
-        
-    var contentString =
-        '<div class="map-content">'+
-        '<h3>Marriage</h3>'+
-        '<p>Our wedding function will be on Sunday 04 Feb 2018 at Golden Mahal 20/15, Vellamodi, Ammandivilai, Kanyakumari Dist.</p>'+
-        '</div>'
-    
-    var image = 'images/marker.png';
-    var myLatLng = new google.maps.LatLng(8.1420765, 77.3267273);
-    var mapMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image,
-        title:  'Frostbyte Interactive'
-    });
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
-    google.maps.event.addListener(mapMarker, 'click', function() {
-        infowindow.open(map, mapMarker);
-    });     
-}*/
